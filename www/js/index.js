@@ -110,8 +110,7 @@ function deleteFile()
 		fail
 	);
 	
-	//reload file system
-  	window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS, fail);
+	
 }
 
 function fail(error) {
